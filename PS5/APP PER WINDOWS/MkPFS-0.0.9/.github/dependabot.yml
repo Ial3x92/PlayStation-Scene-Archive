@@ -1,7 +1,0 @@
-version: 2
-updates:
-  - package-ecosystem: uv
-    versioning-strategy: widen
-    directory: "/"
-    schedule:
-      interval: weekly
