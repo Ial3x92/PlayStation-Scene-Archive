@@ -1,0 +1,1 @@
+[System.IO.File]::WriteAllText("a53_embedded.h", "unsigned char a53_ppr_install_fast_elf[] = {`n" + (([System.IO.File]::ReadAllBytes("a53_ppr_install_fast.elf") | ForEach-Object { "0x{0:x2}" -f $_ }) -join ", ") + "`n};`nunsigned int a53_ppr_install_fast_elf_len = " + (Get-Item "a53_ppr_install_fast.elf").Length + ";`n")
