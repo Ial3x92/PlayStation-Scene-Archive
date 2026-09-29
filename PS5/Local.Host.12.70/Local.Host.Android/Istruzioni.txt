@@ -1,6 +1,0 @@
-Installare Local.Host.Android.apk
-In fondo cliccare hosts e mettere la cartella 
-slopkitplk o il sito https://ial3x92.github.io/slopkitpldm/
-Premere su start service
-Connettere a internet la ps5 con hotspot 
-e impostare il dns primario come scritto nell'app
